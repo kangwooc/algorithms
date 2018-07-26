@@ -18,10 +18,10 @@ public class gcdlcm {
         if (n2 == 0) {
             return n1;
         }
-        return gcm(n2, n1 % n2);
+        return gcm(n2, n1 % n2); // 유클리드 호제법
     }
 
     private static int lcm(int n1, int n2) {
-        return n1 * n2 /gcm(n1, n2) ;
+        return n1 * n2 / gcm(n1, n2);
     }
 }
