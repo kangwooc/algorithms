@@ -1,3 +1,5 @@
+package course1;
+
 import java.util.Scanner;
 
 public class baseball {
@@ -14,6 +16,7 @@ public class baseball {
         }
         int answer = numCompare(nums, strike, ball);
         System.out.println(answer);
+        sc.close();
     }
 
     private static boolean figureOut(int num, int num1, int strike, int ball) {

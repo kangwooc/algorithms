@@ -1,3 +1,5 @@
+package course1;
+
 import java.util.Scanner;
 
 public class gcdlcm {

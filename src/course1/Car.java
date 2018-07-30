@@ -1,3 +1,5 @@
+package course1;
+
 import java.util.*;
 
 public class Car {
@@ -16,5 +18,6 @@ public class Car {
             }
         }
         System.out.println(count);
+        sc.close();
     }
 }

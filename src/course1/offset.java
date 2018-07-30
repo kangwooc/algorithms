@@ -1,3 +1,5 @@
+package course1;
+
 import java.util.Scanner;
 
 public class offset {
@@ -62,5 +64,6 @@ public class offset {
             }
             System.out.println(twoArray1[i][4]);
         }
+        sc.close();
     }
 }
