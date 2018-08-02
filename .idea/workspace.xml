@@ -2,29 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="415e9ba8-36ec-4b07-af1f-27a9e09863b3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/course1/tetris.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inout2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/attackrange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classpresident.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/colorpaper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/course2/mine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/baseball.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/bingo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/eightnine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/gcdlcm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/maxofarr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/offset.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tetris.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baseball.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bingo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bingo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eightnine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gcdlcm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maxofarr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/course2/maxofarr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offset.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tetris.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/inout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/inout2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/inout2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/rook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/rook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/seat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/course2/inout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inout2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inout2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rook.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,11 +26,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bingo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/bingo.java">
+      <file leaf-file-name="classpresident.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/classpresident.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+            <state relative-caret-position="476">
+              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inout2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/inout2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inout.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/course2/inout.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="48" lean-forward="true" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="colorpaper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/colorpaper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -72,7 +89,6 @@
         <option value="$PROJECT_DIR$/src/baseball.java" />
         <option value="$PROJECT_DIR$/src/maxofarr.java" />
         <option value="$PROJECT_DIR$/src/seat.java" />
-        <option value="$PROJECT_DIR$/src/inout.java" />
         <option value="$PROJECT_DIR$/src/course1/gcdlcm.java" />
         <option value="$PROJECT_DIR$/src/course1/eightnine.java" />
         <option value="$PROJECT_DIR$/src/course1/offset.java" />
@@ -80,11 +96,20 @@
         <option value="$PROJECT_DIR$/src/course1/Car.java" />
         <option value="$PROJECT_DIR$/src/course2/maxofarr.java" />
         <option value="$PROJECT_DIR$/src/course1/tetris.java" />
-        <option value="$PROJECT_DIR$/src/course2/inout.java" />
         <option value="$PROJECT_DIR$/src/tetris.java" />
-        <option value="$PROJECT_DIR$/src/course1/bingo.java" />
-        <option value="$PROJECT_DIR$/src/course1/seat.java" />
         <option value="$PROJECT_DIR$/src/bingo.java" />
+        <option value="$PROJECT_DIR$/src/course1/bingo.java" />
+        <option value="$PROJECT_DIR$/src/rook.java" />
+        <option value="$PROJECT_DIR$/src/attackrange.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/mine.java" />
+        <option value="$PROJECT_DIR$/src/course2/mine.java" />
+        <option value="$PROJECT_DIR$/src/course1/seat.java" />
+        <option value="$PROJECT_DIR$/src/inout.java" />
+        <option value="$PROJECT_DIR$/src/colorpaper.java" />
+        <option value="$PROJECT_DIR$/src/course2/inout.java" />
+        <option value="$PROJECT_DIR$/src/inout2.java" />
+        <option value="$PROJECT_DIR$/src/classpresident.java" />
       </list>
     </option>
   </component>
@@ -153,7 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.bingo">
+  <component name="RunManager" selected="Application.classpresident">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -169,17 +194,17 @@
       </extension>
     </configuration>
     <configuration name="bingo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bingo" />
+      <option name="MAIN_CLASS_NAME" value="course1.bingo" />
+      <module name="algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="classpresident" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course2.classpresident" />
       <module name="algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="inout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inout" />
-      <module name="algorithms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="seat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seat" />
+      <option name="MAIN_CLASS_NAME" value="course2.inout" />
       <module name="algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -227,19 +252,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.seat" />
       <item itemvalue="Application.inout" />
       <item itemvalue="Application.tetris" />
       <item itemvalue="Application.baseball" />
       <item itemvalue="Application.bingo" />
+      <item itemvalue="Application.classpresident" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.classpresident" />
+        <item itemvalue="Application.inout" />
         <item itemvalue="Application.bingo" />
         <item itemvalue="Application.baseball" />
         <item itemvalue="Application.tetris" />
-        <item itemvalue="Application.inout" />
-        <item itemvalue="Application.seat" />
       </list>
     </recent_temporary>
   </component>
@@ -346,7 +371,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/inout.java">
+    <entry file="file://$PROJECT_DIR$/src/course2/inout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
@@ -360,7 +385,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bingo.java">
+    <entry file="file://$PROJECT_DIR$/src/course1/bingo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
@@ -381,7 +406,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/inout.java">
+    <entry file="file://$PROJECT_DIR$/src/course2/inout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
@@ -395,7 +420,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bingo.java">
+    <entry file="file://$PROJECT_DIR$/src/course1/bingo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
@@ -476,7 +501,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bingo.java">
+    <entry file="file://$PROJECT_DIR$/src/course1/bingo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
@@ -497,7 +522,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/inout.java">
+    <entry file="file://$PROJECT_DIR$/src/course2/inout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
@@ -532,38 +557,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/course1/offset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/course1/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inout2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-139">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -574,13 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/course2/maxofarr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/course1/tetris.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -588,17 +578,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/course1/seat.java">
+    <entry file="file://$PROJECT_DIR$/src/course1/bingo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="345">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bingo.java">
+    <entry file="file://$PROJECT_DIR$/src/rook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+        <state relative-caret-position="60">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+          <folding>
+            <element signature="e#90#91#0" expanded="true" />
+            <element signature="e#128#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/attackrange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+          <folding>
+            <element signature="e#97#98#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/course2/maxofarr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/course1/offset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/course1/seat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/course2/mine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/colorpaper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/course2/inout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="48" lean-forward="true" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inout2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classpresident.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
         </state>
       </provider>
     </entry>
