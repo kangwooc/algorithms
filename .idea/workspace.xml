@@ -2,19 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="415e9ba8-36ec-4b07-af1f-27a9e09863b3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/attackrange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classpresident.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/colorpaper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/course2/mine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/beehive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/combinationpascal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/course2/attackrange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/course2/inout2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/course2/rook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/course3/lcm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nextnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/bingo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/inout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/inout2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/inout2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/rook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/rook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/seat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/course2/inout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inout2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inout2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/attackrange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/classpresident.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/colorpaper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/colorpaper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/inout2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/rook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/attackrange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/colorpaper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/colorpaper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inout2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rook.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,38 +31,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="classpresident.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/classpresident.java">
+      <file leaf-file-name="attackrange.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/course2/attackrange.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inout2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/inout2.java">
+      <file leaf-file-name="nextnum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nextnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+            <state relative-caret-position="360">
+              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inout.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/course2/inout.java">
+      <file leaf-file-name="beehive.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/beehive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="48" lean-forward="true" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+            <state relative-caret-position="60">
+              <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="colorpaper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/colorpaper.java">
+      <file leaf-file-name="fibonacci.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lcm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/course3/lcm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+              <folding>
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="combinationpascal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/combinationpascal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -99,17 +129,24 @@
         <option value="$PROJECT_DIR$/src/tetris.java" />
         <option value="$PROJECT_DIR$/src/bingo.java" />
         <option value="$PROJECT_DIR$/src/course1/bingo.java" />
-        <option value="$PROJECT_DIR$/src/rook.java" />
-        <option value="$PROJECT_DIR$/src/attackrange.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/mine.java" />
         <option value="$PROJECT_DIR$/src/course2/mine.java" />
         <option value="$PROJECT_DIR$/src/course1/seat.java" />
         <option value="$PROJECT_DIR$/src/inout.java" />
-        <option value="$PROJECT_DIR$/src/colorpaper.java" />
         <option value="$PROJECT_DIR$/src/course2/inout.java" />
-        <option value="$PROJECT_DIR$/src/inout2.java" />
         <option value="$PROJECT_DIR$/src/classpresident.java" />
+        <option value="$PROJECT_DIR$/src/course2/classpresident.java" />
+        <option value="$PROJECT_DIR$/src/inout2.java" />
+        <option value="$PROJECT_DIR$/src/rook.java" />
+        <option value="$PROJECT_DIR$/src/attackrange.java" />
+        <option value="$PROJECT_DIR$/src/colorpaper.java" />
+        <option value="$PROJECT_DIR$/src/nextnum.java" />
+        <option value="$PROJECT_DIR$/src/lcm.java" />
+        <option value="$PROJECT_DIR$/src/combinationpascal.java" />
+        <option value="$PROJECT_DIR$/src/beehive.java" />
+        <option value="$PROJECT_DIR$/src/course3/fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/fibonacci.java" />
       </list>
     </option>
   </component>
@@ -150,6 +187,12 @@
             </path>
             <path>
               <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="course3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -178,38 +221,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.classpresident">
+  <component name="RunManager" selected="Application.combinationpascal">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="baseball" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course1.baseball" />
-      <module name="algorithms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="course1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="bingo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course1.bingo" />
+    <configuration name="attackrange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course2.attackrange" />
       <module name="algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="classpresident" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course2.classpresident" />
+    <configuration name="combinationpascal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="combinationpascal" />
       <module name="algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="inout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course2.inout" />
+    <configuration name="fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fibonacci" />
       <module name="algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="tetris" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course1.tetris" />
+    <configuration name="inout2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course2.inout2" />
+      <module name="algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="nextnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nextnum" />
       <module name="algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -252,19 +289,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.inout" />
-      <item itemvalue="Application.tetris" />
-      <item itemvalue="Application.baseball" />
-      <item itemvalue="Application.bingo" />
-      <item itemvalue="Application.classpresident" />
+      <item itemvalue="Application.inout2" />
+      <item itemvalue="Application.attackrange" />
+      <item itemvalue="Application.nextnum" />
+      <item itemvalue="Application.fibonacci" />
+      <item itemvalue="Application.combinationpascal" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.classpresident" />
-        <item itemvalue="Application.inout" />
-        <item itemvalue="Application.bingo" />
-        <item itemvalue="Application.baseball" />
-        <item itemvalue="Application.tetris" />
+        <item itemvalue="Application.combinationpascal" />
+        <item itemvalue="Application.fibonacci" />
+        <item itemvalue="Application.nextnum" />
+        <item itemvalue="Application.attackrange" />
+        <item itemvalue="Application.inout2" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +329,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
@@ -302,9 +338,9 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007153" side_tool="true" weight="0.32969698" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32969698" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.32969698" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32969698" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.32969698" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" visible="true" weight="0.32969698" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12517883" />
@@ -508,14 +544,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rook.java">
+    <entry file="file://$PROJECT_DIR$/src/course2/rook.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/inout2.java">
+    <entry file="file://$PROJECT_DIR$/src/course2/inout2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="19" selection-start-column="19" selection-end-column="19" />
@@ -540,13 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/course1/gcdlcm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -578,56 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/course1/bingo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-          <folding>
-            <element signature="e#90#91#0" expanded="true" />
-            <element signature="e#128#129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/attackrange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-          <folding>
-            <element signature="e#97#98#0" expanded="true" />
-            <element signature="e#138#139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/course2/maxofarr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/course1/offset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/course1/seat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -635,17 +614,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/course2/mine.java">
+    <entry file="file://$PROJECT_DIR$/src/course1/offset.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        <state relative-caret-position="498">
+          <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/colorpaper.java">
+    <entry file="file://$PROJECT_DIR$/src/course1/bingo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+        <state relative-caret-position="345">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/course2/inout2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -656,17 +642,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/inout2.java">
+    <entry file="file://$PROJECT_DIR$/src/course2/classpresident.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        <state relative-caret-position="495">
+          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classpresident.java">
+    <entry file="file://$PROJECT_DIR$/src/course2/mine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        <state relative-caret-position="315">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/course2/maxofarr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/course2/rook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-302">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/course1/gcdlcm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/colorpaper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/combinationpascal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/course3/lcm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/course2/attackrange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nextnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/beehive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
