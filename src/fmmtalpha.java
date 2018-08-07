@@ -7,7 +7,7 @@ public class fmmtalpha {
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
         int y = sc.nextInt();
-        
+
 
     }
 }

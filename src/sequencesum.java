@@ -13,7 +13,7 @@ public class sequencesum {
         }
 
         for (int i = 0; i < N; i++) {
-
+            
         }
     }
 }

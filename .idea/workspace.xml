@@ -2,29 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="415e9ba8-36ec-4b07-af1f-27a9e09863b3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chebyshevtheo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/combinationzero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/course3/PROSJEK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/course3/beehive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/course3/findprime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/course3/nextnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/course3/rules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fmmtalpha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pfactorization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sequencesum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/course3/pfactorization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fractionsum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streetree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/beehive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/colorpaper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/colorpaper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/combinationpascal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/combinationpascal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/course3/fibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/course3/fibonacci.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/combinationpascal.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/course3/lcm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/course3/lcm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/nextnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beehive.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/colorpaper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/colorpaper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/combinationpascal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/course3/combinationpascal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/course3/lcm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/course3/lcm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/course3/fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nextnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/findprime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chebyshevtheo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chebyshevtheo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fmmtalpha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fmmtalpha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pfactorization.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sequencesum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sequencesum.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +27,8 @@
       <file leaf-file-name="fmmtalpha.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fmmtalpha.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -48,26 +36,8 @@
       <file leaf-file-name="rules" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/course3/rules">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fibonacci.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/course3/fibonacci.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="combinationzero.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/combinationzero.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-line="21" />
+            <state relative-caret-position="120">
+              <caret line="8" column="13" selection-start-line="1" selection-start-column="3" selection-end-line="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -76,29 +46,25 @@
         <entry file="file://$PROJECT_DIR$/src/sequencesum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chebyshevtheo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chebyshevtheo.java">
+      <file leaf-file-name="fractionsum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fractionsum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-              <folding>
-                <element signature="e#99#100#0" expanded="true" />
-                <element signature="e#140#141#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pfactorization.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pfactorization.java">
+      <file leaf-file-name="streetree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/streetree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="180">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -158,18 +124,21 @@
         <option value="$PROJECT_DIR$/src/fibonacci.java" />
         <option value="$PROJECT_DIR$/src/course3/beehive.java" />
         <option value="$PROJECT_DIR$/src/PROSJEK.java" />
-        <option value="$PROJECT_DIR$/src/fmmtalpha.java" />
         <option value="$PROJECT_DIR$/src/course3/fibonacci.java" />
         <option value="$PROJECT_DIR$/src/combinationpascal.java" />
         <option value="$PROJECT_DIR$/src/combinationzero.java" />
         <option value="$PROJECT_DIR$/src/course3/PROSJEK.java" />
         <option value="$PROJECT_DIR$/src/findprime.java" />
-        <option value="$PROJECT_DIR$/src/pfactorization.java" />
         <option value="$PROJECT_DIR$/src/course3/lcm.java" />
         <option value="$PROJECT_DIR$/src/lcm.java" />
         <option value="$PROJECT_DIR$/src/course3/combinationpascal.java" />
+        <option value="$PROJECT_DIR$/src/fractionsum.java" />
+        <option value="$PROJECT_DIR$/src/fmmtalpha.java" />
+        <option value="$PROJECT_DIR$/src/pfactorization.java" />
+        <option value="$PROJECT_DIR$/src/course3/pfactorization.java" />
         <option value="$PROJECT_DIR$/src/sequencesum.java" />
         <option value="$PROJECT_DIR$/src/chebyshevtheo.java" />
+        <option value="$PROJECT_DIR$/src/streetree.java" />
       </list>
     </option>
   </component>
@@ -183,8 +152,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,6 +170,18 @@
               <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="course1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="course2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="course3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -211,7 +192,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -237,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.findprime">
+  <component name="RunManager" selected="Application.chebyshevtheo">
     <configuration name="PROSJEK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="course3.PROSJEK" />
       <module name="algorithms" />
@@ -246,8 +227,8 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="beehive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course3.beehive" />
+    <configuration name="chebyshevtheo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chebyshevtheo" />
       <module name="algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -261,8 +242,8 @@
       <module name="algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="nextnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course3.nextnum" />
+    <configuration name="pfactorization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course3.pfactorization" />
       <module name="algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -305,19 +286,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.nextnum" />
       <item itemvalue="Application.fibonacci" />
-      <item itemvalue="Application.beehive" />
       <item itemvalue="Application.PROSJEK" />
       <item itemvalue="Application.findprime" />
+      <item itemvalue="Application.pfactorization" />
+      <item itemvalue="Application.chebyshevtheo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.chebyshevtheo" />
+        <item itemvalue="Application.pfactorization" />
         <item itemvalue="Application.findprime" />
         <item itemvalue="Application.PROSJEK" />
         <item itemvalue="Application.fibonacci" />
-        <item itemvalue="Application.beehive" />
-        <item itemvalue="Application.nextnum" />
       </list>
     </recent_temporary>
   </component>
@@ -355,12 +336,12 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007153" side_tool="true" weight="0.32969698" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32969698" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32969698" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32969698" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.32969698" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12804006" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12947068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -410,20 +391,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/course2/maxofarr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/course2/inout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/course1/tetris.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -602,25 +569,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/course2/attackrange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/colorpaper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -641,17 +601,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fmmtalpha.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/course3/PROSJEK.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/course3/findprime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/course3/combinationpascal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -665,27 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/course3/findprime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pfactorization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/combinationzero.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/course3/fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -693,35 +639,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/course3/combinationpascal.java">
+    <entry file="file://$PROJECT_DIR$/src/course3/rules">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="1" selection-start-column="3" selection-end-line="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/course3/rules">
+    <entry file="file://$PROJECT_DIR$/src/fmmtalpha.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/combinationzero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/colorpaper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/course3/pfactorization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sequencesum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chebyshevtheo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-          <folding>
-            <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#140#141#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fractionsum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/streetree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
         </state>
       </provider>
     </entry>
