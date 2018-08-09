@@ -1,3 +1,5 @@
+package course3;
+
 import java.util.Scanner;
 
 public class chebyshevtheo {
