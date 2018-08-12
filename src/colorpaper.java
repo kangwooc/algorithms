@@ -7,5 +7,6 @@ public class colorpaper {
         int[][] arr = new int[101][101];
 
 
+
     }
 }

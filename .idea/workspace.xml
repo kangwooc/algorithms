@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="415e9ba8-36ec-4b07-af1f-27a9e09863b3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/binary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/course3/streetree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/google-java-format.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/course4/binary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mountain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tobin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/fractionsum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/fractionsum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/streetree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/streetree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/streetree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/binary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/binary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/colorpaper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/colorpaper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/fmmtalpha.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/fmmtalpha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/fractionsum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/streetree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/binary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/colorpaper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/colorpaper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fmmtalpha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fmmtalpha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fractionsum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/course3/fractionsum.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,23 +36,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3925" />
+          <entry key="java" value="5018" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3925" />
+          <entry key="JAVA" value="5018" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="28" />
+          <entry key="java" value="35" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="28" />
+          <entry key="JAVA" value="35" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -57,35 +63,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fmmtalpha.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/course3/streetree.java">
+        <entry file="file://$PROJECT_DIR$/src/colorpaper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mountain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/binary.java">
+        <entry file="file://$PROJECT_DIR$/src/tobin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fractionsum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+            <state relative-caret-position="30">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -111,10 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/maxofarr.java" />
-        <option value="$PROJECT_DIR$/src/seat.java" />
-        <option value="$PROJECT_DIR$/src/course1/gcdlcm.java" />
-        <option value="$PROJECT_DIR$/src/course1/eightnine.java" />
         <option value="$PROJECT_DIR$/src/course1/offset.java" />
         <option value="$PROJECT_DIR$/src/course1/baseball.java" />
         <option value="$PROJECT_DIR$/src/course1/Car.java" />
@@ -136,7 +138,6 @@
         <option value="$PROJECT_DIR$/src/attackrange.java" />
         <option value="$PROJECT_DIR$/src/nextnum.java" />
         <option value="$PROJECT_DIR$/src/course3/nextnum.java" />
-        <option value="$PROJECT_DIR$/src/colorpaper.java" />
         <option value="$PROJECT_DIR$/src/beehive.java" />
         <option value="$PROJECT_DIR$/src/fibonacci.java" />
         <option value="$PROJECT_DIR$/src/course3/beehive.java" />
@@ -152,16 +153,21 @@
         <option value="$PROJECT_DIR$/src/course3/chebyshevtheo.java" />
         <option value="$PROJECT_DIR$/src/sequencesum.java" />
         <option value="$PROJECT_DIR$/src/course3/sequencesum.java" />
-        <option value="$PROJECT_DIR$/src/fmmtalpha.java" />
         <option value="$PROJECT_DIR$/src/combinationzero.java" />
         <option value="$PROJECT_DIR$/src/course3/fibonacci.java" />
         <option value="$PROJECT_DIR$/src/course3/lcm.java" />
         <option value="$PROJECT_DIR$/src/course3/combinationzero.java" />
-        <option value="$PROJECT_DIR$/src/fractionsum.java" />
         <option value="$PROJECT_DIR$/.idea/google-java-format.xml" />
         <option value="$PROJECT_DIR$/src/streetree.java" />
         <option value="$PROJECT_DIR$/src/course3/streetree.java" />
+        <option value="$PROJECT_DIR$/src/fractionsum.java" />
+        <option value="$PROJECT_DIR$/src/course3/fractionsum.java" />
+        <option value="$PROJECT_DIR$/src/colorpaper.java" />
+        <option value="$PROJECT_DIR$/src/fmmtalpha.java" />
         <option value="$PROJECT_DIR$/src/binary.java" />
+        <option value="$PROJECT_DIR$/src/course4/binary.java" />
+        <option value="$PROJECT_DIR$/src/mountain.java" />
+        <option value="$PROJECT_DIR$/src/tobin.java" />
       </list>
     </option>
   </component>
@@ -184,11 +190,6 @@
             <path>
               <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -224,7 +225,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533860994479" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534041450663" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -247,8 +248,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.streetree">
+  <component name="RunManager" selected="Application.binary">
     <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="binary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course4.binary" />
+      <module name="algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -271,15 +280,7 @@
       </method>
     </configuration>
     <configuration name="fractionsum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fractionsum" />
-      <module name="algorithms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pfactorization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course3.pfactorization" />
+      <option name="MAIN_CLASS_NAME" value="course3.fractionsum" />
       <module name="algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -309,19 +310,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.pfactorization" />
       <item itemvalue="Application.chebyshevtheo" />
       <item itemvalue="Application.streetree" />
       <item itemvalue="Application.combinationzero" />
       <item itemvalue="Application.fractionsum" />
+      <item itemvalue="Application.binary" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.binary" />
         <item itemvalue="Application.streetree" />
         <item itemvalue="Application.fractionsum" />
         <item itemvalue="Application.combinationzero" />
         <item itemvalue="Application.chebyshevtheo" />
-        <item itemvalue="Application.pfactorization" />
       </list>
     </recent_temporary>
   </component>
@@ -551,13 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/course3/chebyshevtheo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/course2/classpresident.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
@@ -614,13 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fmmtalpha.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/google-java-format.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -628,17 +615,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fractionsum.java">
+    <entry file="file://$PROJECT_DIR$/src/course3/streetree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        <state relative-caret-position="120">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/course3/streetree.java">
+    <entry file="file://$PROJECT_DIR$/src/course3/chebyshevtheo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="195">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/course3/fractionsum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fmmtalpha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/course4/binary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -649,10 +660,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/binary.java">
+    <entry file="file://$PROJECT_DIR$/src/mountain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tobin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
