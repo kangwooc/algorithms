@@ -17,5 +17,6 @@ public class binary {
             sb.append(arr.get(i));
         }
         System.out.println(sb.toString());
+        sc.close();
     }
 }

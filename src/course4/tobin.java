@@ -1,3 +1,4 @@
+package course4;
 // step by step
 // first: print out n numbers of binary number
 // second: sort using condition
@@ -56,10 +57,3 @@ public class tobin {
         sc.close();
     }
 }
-
-
-
-
-
-
-
