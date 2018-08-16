@@ -1,7 +1,7 @@
 package course4;
 
 import java.util.Scanner;
-
+// hard question...
 public class tobin3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -16,7 +16,7 @@ public class tobin3 {
         if (x >= n) {
             if (y == k) {
                 for (int i = 0; i < n; i++) {
-                    System.out.printf("%d",a[i]);
+                    System.out.printf("%d", a[i]);
                 }
                 System.out.println();
             }

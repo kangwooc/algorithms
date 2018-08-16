@@ -4,36 +4,54 @@ public class tree {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-        Node node = new Node();
-        node.setData(sc.next());
+        setTree(sc);
     }
 
-
+    public static void setTree(Scanner sc) {
+        if (sc.next().equals(".")) return;
+        TreeNode treeNode  = new TreeNode(sc.next().charAt(0));
+        treeNode.left.data = sc.next().charAt(0);
+        treeNode.right.data = sc.next().charAt(0);
+    }
 }
 
-class Node {
-    String data;
-    Node left, right;
-    public Node() {
-        data = null;
+class TreeNode {
+
+    char data;
+    TreeNode left, right;
+
+    public TreeNode(char data) {
+        this.data = data;
         left = null;
         right = null;
     }
 
-    public void setData(String data) {
-        this.data = data;
-    }
-
     //root -> left -> right
-    public void preOrder() {
+    public void preOrder(TreeNode TreeNode) {
+        if (data != '.') {
+            System.out.print(TreeNode.data);
+            preOrder(TreeNode.left);
+            preOrder(TreeNode.right);
+        }
 
     }
+
     // left -> root -> right
-    public void inOrder() {
+    public void inOrder(TreeNode TreeNode) {
+        if (data != '.') {
+            inOrder(TreeNode.left);
+            System.out.print(TreeNode.data);
+            inOrder(TreeNode.right);
+        }
 
     }
-    // left -> right -> root
-    public void postOrder() {
 
+    // left -> right -> root
+    public void postOrder(TreeNode TreeNode) {
+        if (data != '.') {
+            postOrder(TreeNode.left);
+            postOrder(TreeNode.right);
+            System.out.print(TreeNode.data);
+        }
     }
 }
