@@ -4,54 +4,43 @@ public class tree {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-        setTree(sc);
+        int index = 0;
+        char[] c = new char[1000];
+        for (int i = 0; i <= num ; i++) {
+            setTree(c, sc.next().charAt(0));
+        }
+
+    }
+    public static void setTree(char[] c, char ch) {
+
     }
 
-    public static void setTree(Scanner sc) {
-        if (sc.next().equals(".")) return;
-        TreeNode treeNode  = new TreeNode(sc.next().charAt(0));
-        treeNode.left.data = sc.next().charAt(0);
-        treeNode.right.data = sc.next().charAt(0);
-    }
-}
-
-class TreeNode {
-
-    char data;
-    TreeNode left, right;
-
-    public TreeNode(char data) {
-        this.data = data;
-        left = null;
-        right = null;
-    }
-
-    //root -> left -> right
-    public void preOrder(TreeNode TreeNode) {
+    public static void preOrder(char[] c) {
         if (data != '.') {
-            System.out.print(TreeNode.data);
-            preOrder(TreeNode.left);
-            preOrder(TreeNode.right);
+            System.out.print(char[][].data);
+            preOrder(char[][].left);
+            preOrder(char[][].right);
         }
 
     }
 
     // left -> root -> right
-    public void inOrder(TreeNode TreeNode) {
+    public static void inOrder(char[] c) {
         if (data != '.') {
-            inOrder(TreeNode.left);
-            System.out.print(TreeNode.data);
-            inOrder(TreeNode.right);
+            inOrder(char[][].left);
+            System.out.print(char[][].data);
+            inOrder(char[][].right);
         }
 
     }
 
     // left -> right -> root
-    public void postOrder(TreeNode TreeNode) {
+    public static void postOrder(char[] c) {
         if (data != '.') {
-            postOrder(TreeNode.left);
-            postOrder(TreeNode.right);
-            System.out.print(TreeNode.data);
+            postOrder(char[][].left);
+            postOrder(char[][].right);
+            System.out.print(char[][].data);
         }
     }
 }
+
