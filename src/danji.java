@@ -7,5 +7,6 @@ public class danji {
         int[] house = new int[num];
 
 
+
     }
 }
