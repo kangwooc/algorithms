@@ -13,15 +13,23 @@ public class tree2 {
             ch[root - 'A'] = root;
             if (left != '.') ch[left - 'A'] = left;
             if (right != '.') ch[right - 'A'] = right;
-        }
-        preOrder();
+        } // setting tree
+        preOrder(ch);
         System.out.println();
-        inOrder();
+        inOrder(ch);
         System.out.println();
-
+        postOrder(ch);
+    }
+    // root -> left -> right
+    private static void preOrder(char[] ch) {
 
     }
 
-    private static void preOrder() {
+    private static void inOrder(char[] ch) {
+
+    }
+
+    private static void postOrder(char[] ch) {
+
     }
 }
