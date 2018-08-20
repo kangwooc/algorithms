@@ -7,7 +7,7 @@ public class tobin3 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int k = sc.nextInt();
-        int[] a = new int[100];
+        int[] a = new int[50];
 
         pat(n, k, 0, 0, a);
     }
@@ -24,9 +24,8 @@ public class tobin3 {
         }
         if (y < k) {
             a[x] = 1;
-            pat(n, k,x + 1,y+1, a);
+            pat(n, k,x + 1,y + 1, a);
         }
-
         a[x] = 0;
         pat(n, k,x + 1, y, a);
     }

@@ -45,7 +45,7 @@ class BinaryTree {
     private void search(TreeNode root, char data, char left, char right) {
         if (root == null) return;
         else if (root.data == data) {
-            if (left != ',') root.left = new TreeNode(left);
+            if (left != '.') root.left = new TreeNode(left);
             if (right != '.') root.right = new TreeNode(right);
         } else {
             search(root.left, data, left, right);
@@ -54,10 +54,10 @@ class BinaryTree {
     }
 
     //root -> left -> right
-    public void preOrder(TreeNode node) {
-        System.out.print(node.data);
-        if (node.left != null) preOrder(node.left);
-        if (node.right != null) preOrder(node.right);
+    public void preOrder(TreeNode root) {
+        System.out.print(root.data);
+        if (root.left != null) preOrder(root.left);
+        if (root.right != null) preOrder(root.right);
     }
 
     // left -> root -> right
