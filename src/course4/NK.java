@@ -1,3 +1,5 @@
+package course4;
+
 import java.util.Scanner;
 
 // N 자리 K 진수 구하기

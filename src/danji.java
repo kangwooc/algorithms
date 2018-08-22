@@ -6,7 +6,5 @@ public class danji {
         int num = sc.nextInt();
         int[] house = new int[num];
 
-
-
     }
 }

@@ -19,7 +19,7 @@ import java.io.InputStreamReader;
 // adjacency matrix
 public class adjacencymatrix {
     static int nE; // number of Edge
-    static int nV; // numver of vertices
+    static int nV; // number of vertices
     public static void main(String[] args) throws Exception{
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         nE = in.read();

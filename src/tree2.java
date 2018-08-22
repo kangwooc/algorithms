@@ -20,11 +20,12 @@ public class tree2 {
         System.out.println();
         postOrder(ch);
     }
+
     // root -> left -> right
     private static void preOrder(char[] ch) {
 
     }
-
+    //
     private static void inOrder(char[] ch) {
 
     }

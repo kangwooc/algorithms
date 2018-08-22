@@ -17,14 +17,12 @@ public class Division {
 
     private static void div(int x, int y, int num, int[] a) {
         if (y == 0) { // y == 0
-            if (a[0] >= a[1]) {
-                for (int i = 0; i < x - 1; i++) {
-                    System.out.print(a[i] + "+");
-                }
-                System.out.println(a[x - 1]);
-                count++;
-                return;
+            for (int i = 0; i < x - 1; i++) {
+                System.out.print(a[i] + "+");
             }
+            System.out.println(a[x - 1]);
+            count++;
+            return;
         }
 
         for (int i = num - 1; i >= 1; i--) {

@@ -1,15 +1,15 @@
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 public class tree {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
+    public static void main(String[] args) throws Exception {
+        BufferedReader sc = new BufferedReader(new InputStreamReader(System.in));
+        int num = Integer.parseInt(sc.readLine());
         BinaryTree t = new BinaryTree();
+        char[] ch;
         for (int i = 0; i < num; i++) {
-            char ch1 = sc.next().charAt(0);
-            char ch2 = sc.next().charAt(0);
-            char ch3 = sc.next().charAt(0);
-            t.add(ch1, ch2, ch3);
+            ch = sc.readLine().replaceAll(" ", "").toCharArray();
+            t.add(ch[0], ch[1], ch[2]);
         }
         t.preOrder(t.root);
         System.out.println();
@@ -61,17 +61,17 @@ class BinaryTree {
     }
 
     // left -> root -> right
-    public void inOrder(TreeNode node) {
-        if (node.left != null) inOrder(node.left);
-        System.out.print(node.data);
-        if (node.right != null) inOrder(node.right);
+    public void inOrder(TreeNode root) {
+        if (root.left != null) inOrder(root.left);
+        System.out.print(root.data);
+        if (root.right != null) inOrder(root.right);
 
     }
 
     // left -> right -> root
-    public void postOrder(TreeNode node) {
-        if (node.left != null) postOrder(node.left);
-        if (node.right != null) postOrder(node.right);
-        System.out.print(node.data);
+    public void postOrder(TreeNode root) {
+        if (root.left != null) postOrder(root.left);
+        if (root.right != null) postOrder(root.right);
+        System.out.print(root.data);
     }
 }
