@@ -4,8 +4,10 @@ import java.util.Scanner;
 // adjacency matrix
 
 public class bfsdfs {
+
     static int N;
     static int nE;
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         N = sc.nextInt();
@@ -24,7 +26,7 @@ public class bfsdfs {
         bfs(c, arr, visited2);
         sc.close();
     }
-
+    // stack or recursion
     private static void dfs(char c, int[][] arr, boolean[] visited) {
         if (!visited[c - 'A']) {
             visited[c - 'A'] = true;
@@ -36,7 +38,7 @@ public class bfsdfs {
             }
         }
     }
-
+    // queue..
     private static void bfs(char c, int[][] arr, boolean[] visited) {
         Queue q = new LinkedList();
         q.add(c - 'A');
@@ -46,7 +48,7 @@ public class bfsdfs {
             int element = (int) q.remove();
             int i = element;
             while (i < N) {
-                if (arr[element][i] != 0 && visited[i] == false) {
+                if (arr[element][i] != 0 && !visited[i]) {
                     q.add(i);
                     visited[i] = true;
                     System.out.print((char)(i + 'A'));

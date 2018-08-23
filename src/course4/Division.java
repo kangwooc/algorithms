@@ -1,3 +1,5 @@
+package course4;
+
 import java.util.Scanner;
 // recursion
 // subset problem...
@@ -16,7 +18,7 @@ public class Division {
     }
 
     private static void div(int x, int y, int num, int[] a) {
-        if (y == 0) { // y == 0
+        if (y == 0) {
             for (int i = 0; i < x - 1; i++) {
                 System.out.print(a[i] + "+");
             }
@@ -27,8 +29,10 @@ public class Division {
 
         for (int i = num - 1; i >= 1; i--) {
             if (y - i >= 0) {
-                a[x] = i;
-                div(x + 1, y - i, num, a);
+                if (x == 0 || a[x - 1] >= i) {
+                    a[x] = i;
+                    div(x + 1, y - i, num, a);
+                }
             }
         }
     }

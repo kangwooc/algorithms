@@ -25,11 +25,11 @@ public class tree2 {
     private static void preOrder(char[] ch) {
 
     }
-    //
+    // left - > root -> right
     private static void inOrder(char[] ch) {
 
     }
-
+    // left -> right -> root
     private static void postOrder(char[] ch) {
 
     }

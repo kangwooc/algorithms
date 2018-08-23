@@ -1,3 +1,5 @@
+package course4;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
@@ -35,8 +37,8 @@ class BinaryTree {
     public void add(char data, char left, char right) {
         if (root == null) {
             if (data != '.') root = new TreeNode(data);
-            if (left != '.') root.left = new TreeNode(data);
-            if (right != '.') root.right = new TreeNode(data);
+            if (left != '.') root.left = new TreeNode(left);
+            if (right != '.') root.right = new TreeNode(right);
         } else {
             search(root, data, left, right);
         }
