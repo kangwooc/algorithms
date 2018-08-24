@@ -27,7 +27,7 @@ public class adjacencylist2 {
         nE = sc.nextInt();
 
         ArrayList<Edge> ad = new ArrayList<>();
-        Edge<Integer, Integer> ed = new Edge<>();
+        Edge<Integer, Integer> ed = new Edge<>(); // 가중치 적용...
 
         for (int i = 0; i < nE; i++) {
             ad.add(new Edge()); // memory allocation

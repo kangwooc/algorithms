@@ -54,12 +54,12 @@ public class Dessert {
                 int n2 = s.pop();
                 switch ((char) nums[i]) {
                     case '+':
-                        s.push(n1 + n2);
+                        s.push(n2 + n1);
                         break;
                     case '-':
                         s.push(n2 - n1);
                         break;
-                        // input +
+                        // input + ?????
                     case '.':
                         s.push(n2 * 10 + n1);
                         break;
