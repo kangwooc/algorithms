@@ -4,7 +4,6 @@ import java.util.Scanner;
 // adjacency matrix
 
 public class bfsdfs {
-
     static int N;
     static int nE;
 
@@ -26,6 +25,7 @@ public class bfsdfs {
         bfs(c, arr, visited2);
         sc.close();
     }
+
     // stack or recursion
     private static void dfs(char c, int[][] arr, boolean[] visited) {
         if (!visited[c - 'A']) {

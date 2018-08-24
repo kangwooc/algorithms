@@ -30,14 +30,13 @@ public class adjacencylist2 {
         Edge<Integer, Integer> ed = new Edge<>(); // 가중치 적용...
 
         for (int i = 0; i < nE; i++) {
-            ad.add(new Edge()); // memory allocation
+            ad.add(new Edge<Integer, Integer>()); // memory allocation
         }
 
         for (int i = 0; i < nV; i++) {
             int t1 = sc.nextInt(); // 시작 vertex 입력 받기
             int t2 = sc.nextInt(); // 끝 vertex 입력 받기
             int t3 = sc.nextInt(); // weight 입력 받기
-
 
             ad.get(t1).set(t3, t2);
             ad.get(t2).set(t3, t1);
