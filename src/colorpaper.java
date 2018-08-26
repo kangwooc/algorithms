@@ -6,7 +6,5 @@ public class colorpaper {
         int n = sc.nextInt();
         int[][] arr = new int[101][101];
 
-
-
     }
 }

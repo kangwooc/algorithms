@@ -13,11 +13,23 @@ public class danji {
                 house[i][j] = Integer.parseInt(String.valueOf(s[j]));
             }
         } // setting the graph
-        bfs(house, visited);
+        int x = 0;
+        int y = 0;
+        bfs(x, y, house, visited);
+    }
+
+    private static void bfs(int x, int y, int[][] house, boolean[][] visited) {
+        if (!visited[x][y]) {
+            visited[x][y] = true;
+            for (int i = 0; i < house[x].length; i++) {
+
+            }
+
+        }
 
     }
 
-    private static void bfs(int[][] house, boolean[][] visited) {
-        danjiCount++;
+    private static void dfs() {
+
     }
 }
