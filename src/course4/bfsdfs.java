@@ -6,7 +6,6 @@ import java.util.Scanner;
 // adjacency matrix
 
 public class bfsdfs {
-
     static int N;
     static int nE;
 

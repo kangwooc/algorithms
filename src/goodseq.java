@@ -1,25 +1,45 @@
 import java.util.Scanner;
 
 public class goodseq {
+    static int n;
+    static boolean stop = false;
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n  = sc.nextInt();
-        int[] num = new int[n];
-        int x = 0;
-        goodseq(x, num);
-        sc.close();
+        n = sc.nextInt();
+        dfs(1, "1");
     }
 
-    private static void goodseq(int x, int[] num) {
-        if (x >= num.length) {
-            for (int i = 0; i < num.length; i++) {
-                System.out.print(num[i]);
-            }
+    public static void dfs(int len, String s) {
+        if (stop) {
             return;
         }
-
-
-
-
+        if (n == len) {
+            stop = true;
+            System.out.println(s);
+        } else {
+            for (int i = 1; i <= 3; i++) {
+                if (isSatisfy(s + i)) {
+                    dfs(len + 1, s + i);
+                }
+            }
+        }
+        // backtracking
     }
+
+    public static boolean isSatisfy(String s) {
+        int len = s.length();
+        int loop = len / 2;
+        int start = len - 1;
+        int end = len;
+
+        for (int i = 1; i <= loop; i++) {
+            if (s.substring(start - i, end - i).equals(s.substring(start, end))) {
+                return false;
+            }
+            start -= 1;
+        }
+        return true;
+    }
+
 }

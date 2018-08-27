@@ -1,12 +1,13 @@
 #include <iostream>
-#include <algorithm>
 using namespace std;
 void bubbleSort(int*);
 
 void bubbleSort(int* arr) {
     for (int i = 0; i < (sizeof(arr) / sizeof(int)) - 1; i++) {
-        for (int j = 0; j < ; j++) {
-            
+        if (arr[i] > arr[i + 1]) {
+            int temp = arr[i + 1];
+            arr[i + 1] = arr[i];
+            arr[i] = temp;
         }
     }
 }
