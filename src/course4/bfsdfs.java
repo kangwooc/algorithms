@@ -1,9 +1,12 @@
+package course4;
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 // adjacency matrix
 
 public class bfsdfs {
+
     static int N;
     static int nE;
 
@@ -38,6 +41,7 @@ public class bfsdfs {
             }
         }
     }
+
     // queue..
     private static void bfs(char c, int[][] arr, boolean[] visited) {
         Queue q = new LinkedList();
@@ -46,7 +50,7 @@ public class bfsdfs {
         System.out.print(c);
         while (!q.isEmpty()) {
             int element = (int) q.remove();
-            int i = element;
+            int i = 0;
             while (i < N) {
                 if (arr[element][i] != 0 && !visited[i]) {
                     q.add(i);

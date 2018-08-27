@@ -1,35 +1,48 @@
-import java.util.Scanner;
-// adjacency matrix
+import java.util.*;
+
 public class danji {
-    static int danjiCount;
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
-        int[][] house = new int[num][num];
-        boolean[][] visited = new boolean[num][num];
-        for (int i = 0; i < num; i++) {
-            for (int j = 0; j < num; j++) {
-                char[] s = sc.next().toCharArray();
-                house[i][j] = Integer.parseInt(String.valueOf(s[j]));
-            }
-        } // setting the graph
-        int x = 0;
-        int y = 0;
-        bfs(x, y, house, visited);
-    }
 
-    private static void bfs(int x, int y, int[][] house, boolean[][] visited) {
-        if (!visited[x][y]) {
-            visited[x][y] = true;
-            for (int i = 0; i < house[x].length; i++) {
+    static int n, ans, cnt;
+    static int[][] a = new int[26][26];
+    static int[] dx = {-1,1,0,0}, dy = {0,0,-1,1};
+    static boolean[][] c = new boolean[26][26];
+    static List<Integer> num = new ArrayList<>();
 
-            }
-
+    private static void go(int x, int y){
+        for(int i = 0; i < 4; i++){
+            int nx = x + dx[i];
+            int ny = y + dy[i];
+            if(nx < 0 || nx >= n || ny < 0 || ny >= n) continue;
+            if(c[nx][ny] || a[nx][ny]==0) continue;
+            c[nx][ny] = true;
+            a[nx][ny] = ans;
+            go(nx, ny);
+            ++cnt;
         }
-
     }
-
-    private static void dfs() {
-
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        n = in.nextInt();
+        for (int i = 0; i < n; i++){
+            String s = in.next();
+            for (int j = 0; j < n; j++)
+                a[i][j] = s.charAt(j) - 48;
+        }
+        for (int i = 0; i < n; i++){
+            for (int j = 0; j < n; j++){
+                if(a[i][j] == 0 || c[i][j]) continue;
+                c[i][j] = true;
+                ++cnt;
+                ++ans;
+                go(i, j);
+                num.add(cnt);
+                cnt = 0;
+            }
+        }
+        System.out.println(ans);
+        Collections.sort(num);
+        for(int i : num)
+            System.out.println(i);
+        in.close();
     }
 }

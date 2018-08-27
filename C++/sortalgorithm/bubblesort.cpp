@@ -4,7 +4,11 @@ using namespace std;
 void bubbleSort(int*);
 
 void bubbleSort(int* arr) {
-    for (int i = 0; i < arr)
+    for (int i = 0; i < (sizeof(arr) / sizeof(int)) - 1; i++) {
+        for (int j = 0; j < ; j++) {
+            
+        }
+    }
 }
 
 int main(int argc, char const *argv[])
