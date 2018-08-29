@@ -12,8 +12,7 @@ void bubbleSort(int* arr) {
     }
 }
 
-int main(int argc, char const *argv[])
-{
+int main(int argc, char const *argv[]) {
     /* code */
     int* arr = new int[100];
     for (int i = 0; i < 100; i++) {

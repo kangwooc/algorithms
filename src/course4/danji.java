@@ -1,3 +1,5 @@
+package course4;
+
 import java.util.*;
 
 public class danji {

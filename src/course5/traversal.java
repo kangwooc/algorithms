@@ -17,6 +17,7 @@ public class traversal {
         inOrder(tree, 0);
         System.out.println();
         postOrder(tree, 0);
+        sc.close();
     }
     // root -> left -> right
     private static void preOrder(int[][] tree, int root) {
@@ -25,7 +26,6 @@ public class traversal {
             preOrder(tree, tree[root][1]);
             preOrder(tree, tree[root][2]);
         }
-
     }
     // left -> root -> right
     private static void inOrder(int[][] tree, int root) {
