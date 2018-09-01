@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class ancester {
     static int nV, X, Y;
     static Tree tree;
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         nV = sc.nextInt();
@@ -100,7 +101,6 @@ public class ancester {
                 temp = tree[temp];
             }
             int ancester = n2;
-
             while (tree[ancester] != root.data) {
                 if (visited[ancester]) {
                     ancester = tree[ancester];

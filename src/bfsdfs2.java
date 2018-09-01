@@ -6,6 +6,7 @@ public class bfsdfs2 {
     static ArrayList<ArrayList<Integer>> adlist;
     static boolean[] bfsVisited;
     static boolean[] dfsVisited;
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         nV = sc.nextInt();
@@ -24,9 +25,9 @@ public class bfsdfs2 {
         }
         bfsVisited = new boolean[nV];
         dfsVisited = new boolean[nV];
-        bfs(0, bfsVisited);
-        System.out.println();
         dfs(0, dfsVisited);
+        System.out.println();
+        bfs(0, bfsVisited);
     }
 
     private static void dfs(int root, boolean[] visited) {
@@ -35,7 +36,7 @@ public class bfsdfs2 {
             System.out.print(root + " ");
             for (int i = 0; i < adlist.get(root).size(); i++) {
                 if (!visited[adlist.get(root).get(i)]) {
-                    bfs(adlist.get(root).get(i), visited);
+                    dfs(adlist.get(root).get(i), visited);
                 }
             }
         }

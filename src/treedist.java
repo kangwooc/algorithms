@@ -13,12 +13,14 @@ public class treedist {
             tree.add(n1, n2);
         }
         tree.nodeDist(X, Y);
+        sc.close();
     }
 
     static class Node {
         int data;
         Node leftChild;
         Node rightSibling;
+        Node parent;
 
         public Node(int data) {
             this.data = data;
@@ -34,6 +36,7 @@ public class treedist {
 
         public void setLeftChild(Node leftChild) {
             this.leftChild = leftChild;
+            this.leftChild.parent = this;
         }
 
         public Node getLeftChild() {
@@ -42,6 +45,7 @@ public class treedist {
 
         public void setRightSibling(Node rightSibling) {
             this.rightSibling = rightSibling;
+            this.rightSibling.parent = this.parent;
         }
 
         public Node getRightSibling() {
@@ -52,9 +56,11 @@ public class treedist {
     static class Tree {
         Node root;
         boolean[] visited;
+        static int[] tree;
 
         public Tree(int size) {
             visited = new boolean[size];
+            tree = new int[size];
         }
 
         public void add(Node parent, Node child) {
@@ -67,10 +73,27 @@ public class treedist {
                 }
                 temp.setRightSibling(child);
             }
+
+            this.tree[child.data] = parent.data;
         }
 
         public void nodeDist(int x, int y) {
+            int distX = 0, distY = 0;
+            int tempX = x, tempY = y;
 
+            if (x == y) {
+                System.out.println(0);
+                return;
+            }
+            while (tempX != 0) {
+                tempX = tree[tempX];
+                distX++;
+            }
+            while (tempY != 0) {
+                tempY = tree[tempY];
+                distY++;
+            }
+            System.out.println(distX + distY);
         }
     }
 }

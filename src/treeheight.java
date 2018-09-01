@@ -12,7 +12,7 @@ public class treeheight {
             Node n2 = new Node(sc.nextInt());
             tree.add(n1, n2);
         }
-        System.out.println(tree.maxHeight(root));
+        System.out.println(tree.maxHeight(tree.root));
         sc.close();
     }
 
@@ -36,7 +36,7 @@ public class treeheight {
 
         public void setLeftChild(Node leftChild) {
             this.leftChild = leftChild;
-            leftChild.parent = this;
+            this.leftChild.parent = this;
         }
 
         public Node getLeftChild() {
@@ -45,7 +45,7 @@ public class treeheight {
 
         public void setRightSibling(Node rightSibling) {
             this.rightSibling = rightSibling;
-            rightSibling.parent = this;
+            this.rightSibling.parent = this.parent;
         }
 
         public Node getRightSibling() {
@@ -94,6 +94,3 @@ public class treeheight {
         }
     }
 }
-
-
-
