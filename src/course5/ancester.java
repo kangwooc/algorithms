@@ -1,3 +1,5 @@
+package course5;
+
 import java.util.Scanner;
 // treat n itself as ancester
 // the number of tree's edges = nV - 1 except root
@@ -96,21 +98,19 @@ public class ancester {
 
         public int findCommonAncester(int n1, int n2) {
             int temp = n1;
-            while(tree[temp] != root.data) {
+            if (n1 == n2) {
+                return temp;
+            }
+            while(temp != root.data) {
                 visited[temp] = true;
                 temp = tree[temp];
             }
             int ancester = n2;
-            while (tree[ancester] != root.data) {
+            while (ancester != root.data) {
                 if (visited[ancester]) {
-                    ancester = tree[ancester];
                     break;
                 }
                 else ancester = tree[ancester];
-            }
-
-            if (ancester == n2) {
-                ancester = root.data;
             }
             return ancester;
         }

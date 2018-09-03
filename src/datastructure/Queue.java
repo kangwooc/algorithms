@@ -1,7 +1,7 @@
 package datastructure;
 
 public class Queue<T> {
-    int data;
+    T data;
 
     public void enqueue() {
 

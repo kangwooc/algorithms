@@ -86,10 +86,16 @@ public class treedist {
                 return;
             }
             while (tempX != 0) {
+                visited[tempX] = true;
+                if (visited[tempY]) {
+                    System.out.println(distX);
+                    return;
+                }
                 tempX = tree[tempX];
                 distX++;
             }
             while (tempY != 0) {
+                visited[tempY] = true;
                 tempY = tree[tempY];
                 distY++;
             }

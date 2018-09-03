@@ -64,7 +64,11 @@ public class treeheight {
 
         public void add(Node parent, Node child) {
             if (parent.leftChild == null) {
-                parent.setLeftChild(child);
+                if (parent.data == root.data) {
+                    root.setLeftChild(child);
+                } else {
+                    parent.setLeftChild(child);
+                }
             } else {
                 Node temp = parent.leftChild;
                 while (temp.rightSibling != null) {
@@ -80,17 +84,19 @@ public class treeheight {
             } else if (root.getLeftChild() == null) {
                 return 1;
             } else {
-                int leftHeight = maxHeight(root.leftChild);
-                while (root.leftChild.getRightSibling() != null) {
-                    int rightHeight = maxHeight(root.leftChild.rightSibling);
+                Node temp1 = root.getLeftChild();
+                int leftHeight = maxHeight(temp1);
+                if (temp1.getRightSibling() == null) {
+                    return leftHeight + 1;
+                } else {
+                    int rightHeight = maxHeight(temp1.rightSibling);
                     if (leftHeight > rightHeight) {
                         return leftHeight + 1;
                     } else {
-                        leftHeight = maxHeight(root.leftChild.rightSibling);
+                        return rightHeight + 1;
                     }
                 }
             }
-            return 0;
         }
     }
 }

@@ -3,6 +3,11 @@
         "__split_buffer": "cpp",
         "string": "cpp",
         "vector": "cpp",
-        "ios": "cpp"
+        "ios": "cpp",
+        "bitset": "cpp",
+        "initializer_list": "cpp",
+        "iterator": "cpp",
+        "string_view": "cpp",
+        "utility": "cpp"
     }
 }

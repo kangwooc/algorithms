@@ -7,8 +7,8 @@ class Stack {
     int i, size;
     Stack::Stack() {
         arr = new int[SIZE];
-        i = -1;
-        size = 0;
+        this->i = -1;
+        this->size = 0;
     }
 
     void Stack::push(int element) {

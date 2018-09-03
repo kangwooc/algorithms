@@ -23,12 +23,12 @@ import java.util.ArrayList;
 //        힙 - 노드가 들어갈 수 있는 자리가 비어있는 일이 없이 노드를 채워넣기 때문에, 배열을 사용해 표현
 //        상호 베타적 집합 - 자신의 부모를 가리키는 포인터를 가지고 있을 뿐, 부모에 대한 정보는 없음
 
-public class Tree {
+public class Tree<K> {
     Tree parent;
-    int data;
-    ArrayList<Tree> children;
+    K data;
+    ArrayList<Tree<K>> children;
 
-    public void printTree(Tree root) {
+    public void printTree(Tree<K> root) {
         System.out.println(root.data);
 
         for (int i = 0; i < children.size(); i++) {
