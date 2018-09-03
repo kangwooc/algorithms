@@ -3,6 +3,7 @@ package course5;
 import java.util.Scanner;
 // treat n itself as ancester
 // the number of tree's edges = nV - 1 except root
+// array construction
 public class ancester {
     static int nV, X, Y;
     static Tree tree;
@@ -83,16 +84,16 @@ public class ancester {
         }
 
         public void add(TreeNode parent, TreeNode child) {
-            if (parent.getLeftChild() == null) { // when parent doesn't have left Node
-                parent.addLeftChild(child);
-            } else {
-                // exist left Node
-                TreeNode temp = parent.getLeftChild();
-                while (temp.rightSibling != null) {
-                    temp = temp.getRightSibling();
-                }
-                temp.addRightSibling(child);
-            }
+//            if (parent.getLeftChild() == null) { // when parent doesn't have left Node
+//                parent.addLeftChild(child);
+//            } else {
+//                // exist left Node
+//                TreeNode temp = parent.getLeftChild();
+//                while (temp.rightSibling != null) {
+//                    temp = temp.getRightSibling();
+//                }
+//                temp.addRightSibling(child);
+//            }
             tree[child.data] = parent.data;
         }
 

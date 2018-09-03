@@ -1,3 +1,5 @@
+package course5;
+
 import java.util.Scanner;
 
 public class treedist {
@@ -6,8 +8,11 @@ public class treedist {
         int n = sc.nextInt();
         int X = sc.nextInt();
         int Y = sc.nextInt();
-        Tree tree = new Tree(n);
-        for (int i = 0; i < n - 1; i++) {
+        Node root = new Node(sc.nextInt());
+        Node child = new Node(sc.nextInt());
+        Tree tree = new Tree(root, n);
+        tree.add(root, child);
+        for (int i = 0; i < n - 2; i++) {
             Node n1 = new Node(sc.nextInt());
             Node n2 = new Node(sc.nextInt());
             tree.add(n1, n2);
@@ -58,48 +63,62 @@ public class treedist {
         boolean[] visited;
         static int[] tree;
 
-        public Tree(int size) {
+        public Tree(Node root, int size) {
+            this.root = root;
             visited = new boolean[size];
             tree = new int[size];
         }
 
         public void add(Node parent, Node child) {
-            if (parent.leftChild == null) {
-                parent.setLeftChild(child);
-            } else {
-                Node temp = parent.leftChild;
-                while (temp.rightSibling != null) {
-                    temp = temp.rightSibling;
-                }
-                temp.setRightSibling(child);
-            }
+//            if (parent.leftChild == null) {
+//                parent.setLeftChild(child);
+//            } else {
+//                Node temp = parent.leftChild;
+//                while (temp.rightSibling != null) {
+//                    temp = temp.rightSibling;
+//                }
+//                temp.setRightSibling(child);
+//            }
 
             this.tree[child.data] = parent.data;
         }
 
         public void nodeDist(int x, int y) {
-            int distX = 0, distY = 0;
+            int dist = 0;
             int tempX = x, tempY = y;
-
             if (x == y) {
                 System.out.println(0);
                 return;
             }
-            while (tempX != 0) {
-                visited[tempX] = true;
-                if (visited[tempY]) {
-                    System.out.println(distX);
-                    return;
-                }
+            int commonAncester = findCommonAncester(x, y);
+            while (tempX != commonAncester) {
                 tempX = tree[tempX];
-                distX++;
+                dist++;
             }
-            while (tempY != 0) {
-                visited[tempY] = true;
+            while(tempY != commonAncester) {
                 tempY = tree[tempY];
-                distY++;
+                dist++;
             }
-            System.out.println(distX + distY);
+            System.out.println(dist);
+        }
+
+        public int findCommonAncester(int n1, int n2) {
+            int temp = n1;
+            if (n1 == n2) {
+                return temp;
+            }
+            while(temp != root.data) {
+                visited[temp] = true;
+                temp = tree[temp];
+            }
+            int ancester = n2;
+            while (ancester != root.data) {
+                if (visited[ancester]) {
+                    break;
+                }
+                else ancester = tree[ancester];
+            }
+            return ancester;
         }
     }
 }

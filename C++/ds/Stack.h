@@ -5,8 +5,9 @@
 class Stack {
     int* arr;
     int i, size;
+
     Stack::Stack() {
-        arr = new int[SIZE];
+        this->arr = new int[SIZE];
         this->i = -1;
         this->size = 0;
     }
