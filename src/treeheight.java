@@ -1,8 +1,5 @@
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Scanner;
 // practice for implementing tree
-
 public class treeheight {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -11,17 +8,14 @@ public class treeheight {
         Node root = new Node(r);
         Tree tree = new Tree(root, n);
         for (int i = 0; i < n - 1; i++) {
-            Node n1 = tree.getNode(sc.nextInt());
-            int n2 = sc.nextInt();
+            Node n1 = new Node(sc.nextInt());
+            Node n2 = new Node(sc.nextInt());
             tree.add(n1, n2);
-        } // setting tree
-        System.out.println();
+        }
+        System.out.println(tree.maxHeight(tree.root));
         sc.close();
     }
 
-    // left child / right sibling expression
-    // 왼쪽 자식과 오른쪽 형제에 대한 포인터를 갖고 있는 노드의 구조. 매우 간편하며 이 방법만으로도 N개의 차수를 가진 노드 표현이
-    // 쉽게 가능해진다.
     static class Node {
         int data;
         Node leftChild;
@@ -30,8 +24,6 @@ public class treeheight {
 
         public Node(int data) {
             this.data = data;
-            this.parent = null;
-            this.leftChild = null;
         }
 
         public void setData(int data) {
@@ -42,8 +34,8 @@ public class treeheight {
             return data;
         }
 
-        public void addLeftChild(Node child) {
-            this.leftChild = child;
+        public void setLeftChild(Node leftChild) {
+            this.leftChild = leftChild;
             this.leftChild.parent = this;
         }
 
@@ -51,73 +43,69 @@ public class treeheight {
             return leftChild;
         }
 
-        public void addRightSibling(Node node) {
-            this.rightSibling = node;
+        public void setRightSibling(Node rightSibling) {
+            this.rightSibling = rightSibling;
             this.rightSibling.parent = this.parent;
         }
 
         public Node getRightSibling() {
             return rightSibling;
         }
-
     }
 
     static class Tree {
         Node root;
-        static boolean[] visited;
+        boolean[] visited;
         static int[] tree;
 
-        public Tree(Node root, int nV) {
+        public Tree(Node root, int size) {
             this.root = root;
-            visited = new boolean[nV];
-            tree = new int[nV];
+            visited = new boolean[size];
+            tree = new int[size];
         }
 
-        public void add(Node parent, int child) {
-            if (parent.getLeftChild() == null) { // when parent doesn't have left Node
-                parent.addLeftChild(new Node(child));
-            } else {
-                // exist left Node
-                Node temp = parent.getLeftChild();
-                while (temp.rightSibling != null) {
-                    temp = temp.getRightSibling();
+        public void add(Node parent, Node child) {
+            if (parent.leftChild == null) {
+                if (parent.data == root.data) {
+                    root.setLeftChild(child);
+                } else {
+                    parent.setLeftChild(child);
                 }
-                temp.addRightSibling(new Node(child));
+            } else {
+                Node temp = parent.leftChild;
+                while (temp.rightSibling != null) {
+                    temp = temp.rightSibling;
+                }
+                temp.setRightSibling(child);
             }
-            tree[child] = parent.data;
+            tree[child.data] = parent.data;
         }
 
-        public Node getNode(int data) {
-            return null;
-        }
-
-        // use bfs
-        public int maxHeight(Node node) {
+        // use dfs
+        public int maxHeight(Node root) {
             if (root == null) {
                 return 0;
             } else {
-                Queue q = new LinkedList();
-                q.add(node);
-                int height = 0;
-                while (!q.isEmpty()) {
-                    Node element = (Node) q.remove();
-                    if (element == null) {
-                        if (!q.isEmpty()) {
-                            q.add(null);
-                        }
+                int max = 1;
+                for (int i = root.data; i < tree.length; i++) {
+                    int height = 0;
+                    int index = i;
+                    while (index != root.data && index != 0) {
+                        index = tree[index];
                         height++;
-                    } else {
-                        Node temp = element;
-                        while (temp.rightSibling != null) {
-                            q.add(temp);
-                            temp = temp.getRightSibling();
+                    }
+                    if (height > max) {
+                        if (index != 0) {
+                            max = height;
+                        } else {
+                            if (root.data == 0) {
+                                max = height;
+                            }
                         }
                     }
                 }
-                return height;
+                return max;
             }
         }
-
-
     }
 }

@@ -84,16 +84,16 @@ public class ancester {
         }
 
         public void add(TreeNode parent, TreeNode child) {
-//            if (parent.getLeftChild() == null) { // when parent doesn't have left Node
-//                parent.addLeftChild(child);
-//            } else {
-//                // exist left Node
-//                TreeNode temp = parent.getLeftChild();
-//                while (temp.rightSibling != null) {
-//                    temp = temp.getRightSibling();
-//                }
-//                temp.addRightSibling(child);
-//            }
+            if (parent.getLeftChild() == null) { // when parent doesn't have left Node
+                parent.addLeftChild(child);
+            } else {
+                // exist left Node
+                TreeNode temp = parent.getLeftChild();
+                while (temp.rightSibling != null) {
+                    temp = temp.getRightSibling();
+                }
+                temp.addRightSibling(child);
+            }
             tree[child.data] = parent.data;
         }
 

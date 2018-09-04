@@ -16,5 +16,6 @@ public class str2 {
             sb.append(c[i]);
         }
         System.out.println(sb.toString());
+        sc.close();
     }
 }

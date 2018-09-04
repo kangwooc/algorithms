@@ -6,12 +6,12 @@ public class Stack<T> {
     int index;
 
     public Stack() {
-        index = 0;
+        index = -1;
         arr = (T[]) new Object[1000];
     }
 
     public void push(T data) {
-        arr[index++] = data;
+        arr[++index] = data;
     }
 
     public T peek() {
@@ -25,5 +25,9 @@ public class Stack<T> {
 
     public int size() {
         return index;
+    }
+
+    public boolean isEmpty() {
+        return index == -1;
     }
 }
