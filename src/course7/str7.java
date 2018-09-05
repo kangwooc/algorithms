@@ -1,4 +1,4 @@
-//package course7;
+package course7;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -18,4 +18,6 @@ public class str7 {
         }
         sc.close();
     }
+
+
 }

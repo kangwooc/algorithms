@@ -1,4 +1,4 @@
-//package course7;
+package course7;
 
 import java.util.Scanner;
 
