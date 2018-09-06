@@ -1,16 +1,9 @@
+package course6;
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
-// greedy algorithm
-// NP-Complete problem..
-// Basic Greedy Coloring Algorithm:
-//
-//        1. Color first vertex with first color.
-//        2. Do following for remaining V-1 vertices.
-//          a) Consider the currently picked vertex and color it with the
-//          lowest numbered color that has not been used on any previously
-//          colored vertices adjacent to it. If all previously used colors
-//          appear on vertices adjacent to v, assign a new color to it.
+
 
 public class twocolor {
     static int nV;
@@ -39,7 +32,7 @@ public class twocolor {
         }
         sc.close();
     }
-    // bfs
+    // bfs - ask question!
     private static boolean isTwoColoring(int start) {
         Queue<Integer> q = new LinkedList();
         q.add(start);
@@ -51,9 +44,25 @@ public class twocolor {
             while (i < nV) {
                 if (graph[element][i] == 1 && !visited[i]) {
                     visited[i] = true;
+                    q.add(i);
+                    if (vertices[element] == 1) {
+                        vertices[i] = 2;
+                    } else if (vertices[element] == 2){
+                        vertices[i] = 1;
+                    }
+                }
+                i++;
+            }
+        }
+
+        for (int i = 0; i < nV - 1; i++) {
+            for (int j = i + 1; j < nV; j++) {
+                if (graph[i][j] == 1 && (vertices[i] == vertices[j])) {
+                    return false;
                 }
             }
         }
+
         return true;
     }
 

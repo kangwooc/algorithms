@@ -58,7 +58,7 @@ public class virus {
             countdfs++;
             for (int i = 0; i < ad.get(root).size(); i++) {
                 if (!visited[ad.get(root).get(i)]) {
-                    dfs (ad.get(root).get(i), visited, ad);
+                    dfs(ad.get(root).get(i), visited, ad);
                 }
             }
         }
