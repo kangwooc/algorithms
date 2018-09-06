@@ -9,8 +9,9 @@ public class str7 {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         ArrayList<String> list = new ArrayList<>();
-        for (int i = 0; i < num; i++) {
-            list.add(sc.nextLine());
+        for (int i = 0; i <= num; i++) {
+            String s = sc.nextLine();
+            list.add(s);
         }
         Collections.sort(list);
         for (String s : list) {
@@ -18,6 +19,4 @@ public class str7 {
         }
         sc.close();
     }
-
-
 }

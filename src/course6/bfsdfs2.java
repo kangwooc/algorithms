@@ -1,8 +1,10 @@
+package course6;
+
 import java.util.*;
 
 public class bfsdfs2 {
-    static int nV;
-    static int nE;
+    static int nV; // num of vertices
+    static int nE; // num of edges
     static ArrayList<ArrayList<Integer>> adlist;
     static boolean[] bfsVisited;
     static boolean[] dfsVisited;
@@ -23,39 +25,45 @@ public class bfsdfs2 {
             adlist.get(n1).add(n2);
             adlist.get(n2).add(n1);
         }
-        bfsVisited = new boolean[nV];
+
+        for (int i = 0; i < nV; i++) {
+           Collections.sort(adlist.get(i));
+        } // read the problem properly!!
+
         dfsVisited = new boolean[nV];
-        dfs(0, dfsVisited);
+        bfsVisited = new boolean[nV];
+        dfs(0);
         System.out.println();
-        bfs(0, bfsVisited);
+        bfs(0);
+        sc.close();
     }
 
-    private static void dfs(int root, boolean[] visited) {
-        if (!visited[root]) {
-            visited[root] = true;
+    private static void dfs(int root) {
+        if (!dfsVisited[root]) {
+            dfsVisited[root] = true;
             System.out.print(root + " ");
             for (int i = 0; i < adlist.get(root).size(); i++) {
-                if (!visited[adlist.get(root).get(i)]) {
-                    dfs(adlist.get(root).get(i), visited);
+                if (!dfsVisited[adlist.get(root).get(i)]) {
+                    dfs(adlist.get(root).get(i));
                 }
             }
         }
     }
 
-    private static void bfs(int root, boolean[] visited) {
-        Queue q = new LinkedList();
+    private static void bfs(int root) {
+        Queue<Integer> q = new LinkedList();
         q.add(root);
-        visited[root] = true;
-        System.out.print(root + " ");
+        bfsVisited[root] = true;
+        System.out.print(root);
         while (!q.isEmpty()) {
-            int element = (int) q.remove();
+            int element = q.remove();
             Iterator it = adlist.get(element).iterator();
             while (it.hasNext()) {
                 int i = (int) it.next();
-                if (!visited[i]) {
-                    visited[i] = true;
+                if (!bfsVisited[i]) {
+                    bfsVisited[i] = true;
                     q.add(i);
-                    System.out.print(i + " ");
+                    System.out.print(" " + i);
                 }
             }
         }

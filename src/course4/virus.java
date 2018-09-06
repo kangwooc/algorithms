@@ -32,6 +32,7 @@ public class virus {
         System.out.println(countdfs);
         sc.close();
     }
+
     // bfs in adjacency list...
     private static void bfs(int root, boolean[] visited, ArrayList<ArrayList<Integer>> ad) {
         Queue<Integer> q = new LinkedList<>(); // queue

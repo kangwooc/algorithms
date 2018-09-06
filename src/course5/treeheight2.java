@@ -1,6 +1,8 @@
+package course5;
+
 import java.util.Scanner;
 // practice for implementing tree
-public class treeheight {
+public class treeheight2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -65,23 +67,22 @@ public class treeheight {
         }
 
         public void add(Node parent, Node child) {
-            if (parent.leftChild == null) {
-                if (parent.data == root.data) {
-                    root.setLeftChild(child);
-                } else {
-                    parent.setLeftChild(child);
-                }
-            } else {
-                Node temp = parent.leftChild;
-                while (temp.rightSibling != null) {
-                    temp = temp.rightSibling;
-                }
-                temp.setRightSibling(child);
-            }
+//            if (parent.leftChild == null) {
+//                if (parent.data == root.data) {
+//                    root.setLeftChild(child);
+//                } else {
+//                    parent.setLeftChild(child);
+//                }
+//            } else {
+//                Node temp = parent.leftChild;
+//                while (temp.rightSibling != null) {
+//                    temp = temp.rightSibling;
+//                }
+//                temp.setRightSibling(child);
+//            }
             tree[child.data] = parent.data;
         }
 
-        // use dfs
         public int maxHeight(Node root) {
             if (root == null) {
                 return 0;
@@ -95,12 +96,8 @@ public class treeheight {
                         height++;
                     }
                     if (height > max) {
-                        if (index != 0) {
+                        if (index != 0 || (index == 0 && root.data == 0)) {
                             max = height;
-                        } else {
-                            if (root.data == 0) {
-                                max = height;
-                            }
                         }
                     }
                 }
