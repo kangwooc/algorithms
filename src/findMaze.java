@@ -5,7 +5,7 @@ import java.util.Scanner;
 // 3. single-pair
 // 4. All-pairs: 플로이드 알고리즘
 // http://new93helloworld.tistory.com/217
-
+// https://ratsgo.github.io/data%20structure&algorithm/2017/11/25/shortestpath/
 public class findMaze {
     static int N, M;
     static int[][] maze;
