@@ -1,3 +1,5 @@
+package course8;
+
 import java.util.Scanner;
 
 public class Stack {

@@ -1,6 +1,7 @@
 package datastructure;
 
 public class LinkedList<K> {
+    Node head;
 
     class Node {
         K data;
@@ -9,6 +10,10 @@ public class LinkedList<K> {
             this.data = data;
             this.next = null;
         }
+    }
+
+    public LinkedList(Node head) {
+        this.head = head;
     }
 }
 
