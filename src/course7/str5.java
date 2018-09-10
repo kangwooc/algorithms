@@ -20,13 +20,17 @@ public class str5 {
             if (ch[i] == ch[i + 1]) {
                 count++;
             } else {
-                sb.append(count);
+                if (count > 1) {
+                    sb.append(count);
+                }
                 sb.append(ch[i]);
                 count = 1;
             }
             i++;
         }
-        sb.append(count);
+        if (count > 1) {
+            sb.append(count);
+        }
         sb.append(ch[ch.length - 1]);
         return sb;
     }

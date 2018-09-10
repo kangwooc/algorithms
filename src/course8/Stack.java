@@ -10,6 +10,6 @@ public class Stack {
         int m = sc.nextInt();
         arr = new int[size];
 
-
+        sc.close();
     }
 }

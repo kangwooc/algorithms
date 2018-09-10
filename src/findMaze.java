@@ -1,17 +1,11 @@
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
-// Shortest Path
-// 1. single-source : dijkstra algorithm
-// 2. single-destination
-// 3. single-pair
-// 4. All-pairs: 플로이드 알고리즘
-// http://new93helloworld.tistory.com/217
-// https://ratsgo.github.io/data%20structure&algorithm/2017/11/25/shortestpath/
-// http://victorydntmd.tistory.com/98?category=686701 - MST
+// use bfs -> dijkstra algorithms
+// https://crab.rutgers.edu/~guyk/BFS.pdf
 public class findMaze {
-    static int N, M, count;
-    static int[][] maze, distance;
+    static int N, M, count = 0;
+    static int[][] maze, maps;
     static boolean[][] visited;
     static int[] dx = {-1, 1, 0, 0}, dy = {0, 0, -1, 1};
 
@@ -21,16 +15,49 @@ public class findMaze {
         M = sc.nextInt();
         maze = new int[N][M];
         visited = new boolean[N][M];
-        distance = new int[N][M];
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < M; j++) {
                 maze[i][j] = sc.nextInt();
             }
         }
-        findShortestPath(maze[N - 1][0], maze[0][M - 1]);
-    }
-    // bfs?
-    private static void findShortestPath(int start, int end) {
 
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < M; j++) {
+                if (maze[i][j] == 1) maps[i][j] = -1;
+
+            }
+        }
+
+        findShortestPath(N - 1, 0, 0, M - 1);
+        sc.close();
+    }
+
+    // bfs - simply...
+    private static void findShortestPath(int x1, int y1, int x2, int y2) {
+        Queue<int[]> q = new LinkedList();
+        int[] point = {x1, y1};
+        q.add(point);
+        visited[x1][y1] = true;
+        while (!q.isEmpty()) {
+            int[] elements = q.remove();
+            for (int i = 0; i < 4; i++) {
+                int nx = elements[0] + dx[i];
+                int ny = elements[1] + dy[i];
+                if (nx == x2 && ny == y2) {
+                    System.out.println(count);
+                    return;
+                }
+                if (nx < 0 || ny < 0 || nx >= N || ny >= M) {
+                    continue;
+                }
+                if (visited[nx][ny] || maze[nx][ny] == 1) {
+                    continue;
+                }
+                visited[nx][ny] = true;
+                point = new int[]{nx, ny};
+                q.add(point);
+                count++;
+            }
+        }
     }
 }

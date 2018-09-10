@@ -3,7 +3,6 @@ package course4;
 import java.util.*;
 
 public class danji {
-
     static int n, ans, cnt;
     static int[][] a = new int[26][26];
     static int[] dx = {-1,1,0,0}, dy = {0,0,-1,1};
@@ -11,11 +10,11 @@ public class danji {
     static List<Integer> num = new ArrayList<>();
 
     private static void go(int x, int y){
-        for(int i = 0; i < 4; i++) {
+        for (int i = 0; i < 4; i++) {
             int nx = x + dx[i];
             int ny = y + dy[i];
-            if(nx < 0 || nx >= n || ny < 0 || ny >= n) continue;
-            if(c[nx][ny] || a[nx][ny]==0) continue;
+            if (nx < 0 || nx >= n || ny < 0 || ny >= n) continue;
+            if (c[nx][ny] || a[nx][ny] == 0) continue;
             c[nx][ny] = true;
             a[nx][ny] = ans;
             go(nx, ny);

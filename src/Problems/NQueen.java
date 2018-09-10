@@ -13,7 +13,7 @@ public class NQueen {
         //back_tracking 함수
         //level: 현재의 따질 행의 위치
 
-        if(level == N){
+        if (level == N){
             //현재 따질 위치가 N열인가?
             //N-1까지 행이 있는데 N열까지 왔다는건
             //N-1까지 모두 조건을 만족한다는 얘기이므로 답을 출력.

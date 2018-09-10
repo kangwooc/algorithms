@@ -32,6 +32,7 @@ public class twocolor {
         }
         sc.close();
     }
+
     // bfs - ask question!
     private static boolean isTwoColoring(int start) {
         Queue<Integer> q = new LinkedList();
@@ -65,5 +66,4 @@ public class twocolor {
 
         return true;
     }
-
 }
