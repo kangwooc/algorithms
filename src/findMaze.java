@@ -5,7 +5,7 @@ import java.util.Scanner;
 // https://crab.rutgers.edu/~guyk/BFS.pdf
 public class findMaze {
     static int N, M, count = 0;
-    static int[][] maze, maps;
+    static int[][] maze, map;
     static boolean[][] visited;
     static int[] dx = {-1, 1, 0, 0}, dy = {0, 0, -1, 1};
 
@@ -15,6 +15,7 @@ public class findMaze {
         M = sc.nextInt();
         maze = new int[N][M];
         visited = new boolean[N][M];
+        map = new int[N][M];
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < M; j++) {
                 maze[i][j] = sc.nextInt();
@@ -23,8 +24,8 @@ public class findMaze {
 
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < M; j++) {
-                if (maze[i][j] == 1) maps[i][j] = -1;
-
+                if (maze[i][j] == 1) map[i][j] = -1;
+                else map[i][j] = Integer.MAX_VALUE;
             }
         }
 
