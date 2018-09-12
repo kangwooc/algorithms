@@ -3,7 +3,7 @@
 #define MAX 1000
 using namespace std;
 
-void quicksort(int*);
+void quicksort(int*, int, int);
 
 void quicksort(int* arr, int left, int right) {
     int i = left, j = right;

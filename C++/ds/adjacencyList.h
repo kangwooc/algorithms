@@ -4,14 +4,10 @@
 
 using namespace std;
 
-vector<int> graphList[100];
+vector<pair<int, int>> graphList[100];
 
 class adjacencyList {
-    adjacencyList::adjacencyList() {
-             
-    }
-
-    adjacencyList::~adjacencyList() {
-        delete graphList;
-    }
+    public:
+        adjacencyList::adjacencyList();
+        adjacencyList::~adjacencyList();
 };

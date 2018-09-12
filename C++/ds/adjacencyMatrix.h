@@ -3,11 +3,7 @@
 #define SIZE 1000
 
 class adjacencyMatrix {
-    adjacencyMatrix::adjacencyMatrix() {
-            
-    }
-    
-    adjacencyMatrix::~adjacencyMatrix() {
-        
-    }
+    public:
+        adjacencyMatrix::adjacencyMatrix();
+        adjacencyMatrix::~adjacencyMatrix();
 };
