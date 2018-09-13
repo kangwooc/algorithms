@@ -1,4 +1,5 @@
 package Algorithms;
+
 // 단일 출발지에서 최단 경로를 찾는 다익스트라 알고리즘
 // 일단 모든 버텍스의 최단 거리값을 Infinity(무한)으로 설정합니다. 그리고 시작점(A) 최단 거리값을 0으로 설정합니다.
 // 이제 A와 연결된 B, C의 거리값을 조정하는데, 시작점 거리값에 아크 값을 더한 것보다 도착점 거리값이 크면 도착점 거리값을 더한 값으로 낮춥니다.
@@ -16,10 +17,12 @@ public class dijkstra {
         maps = new int[n + 1][n + 1];
 
     }
+
     public void input(int i,int j, int w) {
         maps[i][j] = w;
         maps[j][i] = w;
     }
+
     // base on dfs
     public void dijkstra(int v) {
         int distance[] = new int[n + 1];          //최단 거리를 저장할 변수 저장
@@ -66,7 +69,6 @@ public class dijkstra {
                     }
                 }
             }
-
         }
 
         //결과값 출력
@@ -77,4 +79,3 @@ public class dijkstra {
 
     }
 }
-

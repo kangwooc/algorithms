@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class quad {
     static int N;
     static int[][] arr;
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         N = sc.nextInt();
@@ -11,6 +12,10 @@ public class quad {
             for (int j = 0; j < N; j++) {
                 arr[i][j] = sc.nextInt();
             }
+        }
+
+        for (int i = 0; i < N; i++) {
+            
         }
     }
 }

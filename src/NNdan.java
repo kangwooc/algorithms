@@ -22,6 +22,6 @@ public class NNdan {
 //        }
 //        Arrays.sort(sortedArr);
 //        System.out.println(sortedArr[M - 1]);
-//        sc.close();
+        sc.close();
     }
 }

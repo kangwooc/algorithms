@@ -1,7 +1,7 @@
 package course2;
 
 import java.util.Scanner;
-
+//  뒤집기 게임
 public class inout2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

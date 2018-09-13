@@ -1,5 +1,6 @@
 package Algorithms;
 // http://victorydntmd.tistory.com/101?category=686701
+// reference: https://github.com/SleekPanther/kruskals-algorithm-minimum-spanning-tree-mst/blob/master/Kruskal.java
 import java.util.*;
 import java.io.*;
 
@@ -28,15 +29,15 @@ public class MST_Kruskal {
         graph.kruskalMST(graphEdges, nodeCount);
     }
 
-    public void kruskalMST(ArrayList<Edge> graphEdges, int nodeCount){
+    public void kruskalMST(ArrayList<Edge> graphEdges, int nodeCount) {
         String outputMessage = "";
 
         Collections.sort(graphEdges);		//sort edges with smallest weight 1st
         ArrayList<Edge> mstEdges = new ArrayList<>();	//list of edges included in the Minimum spanning tree (initially empty)
 
-        DisjointSet nodeSet = new DisjointSet(nodeCount+1);		//Initialize singleton sets for each node in graph. (nodeCount +1) to account for arrays indexing from 0
+        DisjointSet nodeSet = new DisjointSet(nodeCount + 1);		//Initialize singleton sets for each node in graph. (nodeCount +1) to account for arrays indexing from 0
 
-        for(int i = 0; i < graphEdges.size() && mstEdges.size() < (nodeCount-1); i++){		//loop over all edges. Start @ 1 (ignore 0th as placeholder). Also early termination when number of edges=(number of nodes-1)
+        for (int i = 0; i < graphEdges.size() && mstEdges.size() < (nodeCount - 1); i++) {		//loop over all edges. Start @ 1 (ignore 0th as placeholder). Also early termination when number of edges=(number of nodes-1)
             Edge currentEdge = graphEdges.get(i);
             int root1 = nodeSet.find(currentEdge.getVertex1());		//Find root of 1 vertex of the edge
             int root2 = nodeSet.find(currentEdge.getVertex2());
@@ -51,13 +52,13 @@ public class MST_Kruskal {
             outputMessage+=unionMessage;
         }
 
-        outputMessage+="\nFinal Minimum Spanning Tree ("+mstEdges.size()+" edges)\n";
-        int mstTotalEdgeWeight=0;
-        for(Edge edge: mstEdges){
-            outputMessage+=edge +"\n";		//print each edge
+        outputMessage+="\nFinal Minimum Spanning Tree (" + mstEdges.size() + " edges)\n";
+        int mstTotalEdgeWeight = 0;
+        for (Edge edge: mstEdges) {
+            outputMessage += edge + "\n";		//print each edge
             mstTotalEdgeWeight += edge.getWeight();
         }
-        outputMessage+="\nTotal weight of all edges in MST = "+mstTotalEdgeWeight;
+        outputMessage += "\nTotal weight of all edges in MST = " + mstTotalEdgeWeight;
 
         System.out.println(outputMessage);
 
@@ -74,7 +75,7 @@ public class MST_Kruskal {
         private int vertex2;
         private int weight;
 
-        public Edge(int vertex1, int vertex2, int weight){
+        public Edge(int vertex1, int vertex2, int weight) {
             this.vertex1 = vertex1;
             this.vertex2 = vertex2;
             this.weight = weight;
@@ -99,7 +100,7 @@ public class MST_Kruskal {
 
         @Override
         public String toString() {
-            return "Edge ("+getVertex1()+", "+getVertex2()+") weight="+getWeight();
+            return "Edge (" + getVertex1() + ", " + getVertex2() + ") weight=" + getWeight();
         }
     }
 

@@ -31,5 +31,4 @@ public class Stack<T> {
         return index == -1;
     }
 
-
 }

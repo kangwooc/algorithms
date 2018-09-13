@@ -1,8 +1,9 @@
 package Algorithms;
-// http://victorydntmd.tistory.com/102?category=686701
+
 import java.util.*;
 import java.io.*;
-
+// http://victorydntmd.tistory.com/102?category=686701
+// reference: https://github.com/cormacpayne/algorithms/blob/master/PrimsAlgorithmMST.java
 public class MST_Prim {
 
     /*
@@ -29,7 +30,7 @@ public class MST_Prim {
         // initialize a PriorityQueue that will keep track of the possible edges that
         // we can add to the tree we are forming, and will allow us to select the
         // edge of least cost every step of the way
-        PriorityQueue<Edge> priorityQueue = new PriorityQueue<Edge>();
+        PriorityQueue<Edge> priorityQueue = new PriorityQueue<>();
         // mark the initial vertex as visited
         visited[source] = true;
 

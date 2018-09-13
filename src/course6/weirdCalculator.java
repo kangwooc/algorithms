@@ -1,3 +1,5 @@
+package course6;
+
 import java.util.*;
 
 // dijkstra algorithm

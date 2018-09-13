@@ -1,3 +1,5 @@
+package course6;
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
@@ -54,7 +56,7 @@ public class findMaze {
                 if (nx < 0 || ny < 0 || nx >= N || ny >= M) {
                     continue;
                 }
-                if (visited[nx][ny] || maze[nx][ny] == 1) {
+                if (visited[nx][ny] || map[nx][ny] == -1) {
                     continue;
                 }
                 map[nx][ny] = map[elements[0]][elements[1]] + 1;
