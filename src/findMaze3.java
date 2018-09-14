@@ -11,9 +11,7 @@ public class findMaze3 {
         M = sc.nextInt();
         int[][] maze = new int[N][M];
         int[][] map = new int[N][M];
-        int[][] map1 = new int[N][M];
         boolean[][] visited = new boolean[N][M];
-        boolean[][] visited1 = new boolean[N][M];
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
                 maze[i][j] = sc.nextInt();
@@ -24,25 +22,15 @@ public class findMaze3 {
             for (int j = 0; j < N; j++) {
                 if (maze[i][j] == 1) {
                     map[i][j] = -1;
-                    map1[i][j] = -1;
                 } else {
                     map[i][j] = Integer.MAX_VALUE;
-                    map1[i][j] = Integer.MAX_VALUE;
                 }
             }
         }
         findShortestPath(N - 1, 0, 0, M - 1, map, visited);
-        findShortestPath(0, M - 1, N - 1, 0, map1, visited1);
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
                 System.out.print(map[i][j]+ " ");
-            }
-            System.out.println();
-        }
-        System.out.println();
-        for (int i = 0; i < N; i++) {
-            for (int j = 0; j < N; j++) {
-                System.out.print(map1[i][j]+ " ");
             }
             System.out.println();
         }
@@ -67,13 +55,11 @@ public class findMaze3 {
                 }
                 if (nx < 0 || ny < 0 || nx >= N || ny >= M) continue;
                 if (visited[nx][ny] || map[nx][ny] == -1) continue;
-
                 map[nx][ny] = map[element[0]][element[1]] + 1;
                 visited[nx][ny] = true;
                 point = new int[]{nx, ny};
                 q.add(point);
             }
-
         }
     }
 }

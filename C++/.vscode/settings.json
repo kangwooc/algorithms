@@ -8,6 +8,11 @@
         "initializer_list": "cpp",
         "iterator": "cpp",
         "string_view": "cpp",
-        "utility": "cpp"
+        "utility": "cpp",
+        "__locale": "cpp",
+        "iosfwd": "cpp",
+        "cstdio": "cpp",
+        "queue": "cpp",
+        "deque": "cpp"
     }
 }

@@ -19,26 +19,13 @@ public class findMaze2 {
                 maze[i][j] = sc.nextInt();
             }
         }
-
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
-                if (maze[i][j] == 1) {
-                    if ((i + 1 < N && maze[i + 1][j] == 1) || (j + 1 < N && maze[i][j + 1] == 1)) {
-                        map[i][j] = -1;
-                    } else {
-                        map[i][j] = Integer.MAX_VALUE;
-                    }
-                }
+                if (maze[i][j] == 1) map[i][j] = -1;
                 else map[i][j] = Integer.MAX_VALUE;
             }
         }
         findShortestPath(N - 1, 0, 0, M - 1);
-        for (int i = 0; i < N; i++) {
-            for (int j = 0; j < N; j++) {
-                System.out.print(map[i][j]+ " ");
-            }
-            System.out.println();
-        }
         sc.close();
     }
 
@@ -62,10 +49,8 @@ public class findMaze2 {
                 if (visited[nx][ny] || map[nx][ny] == -1) continue;
                 map[nx][ny] = map[element[0]][element[1]] + 1;
                 visited[nx][ny] = true;
-                point = new int[]{nx, ny};
-                q.add(point);
+                q.add(new int[]{nx, ny});
             }
-
         }
     }
 }

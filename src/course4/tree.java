@@ -20,6 +20,7 @@ public class tree {
         t.postOrder(t.root);
         sc.close();
     }
+
     static class TreeNode {
         char data;
         TreeNode left, right;

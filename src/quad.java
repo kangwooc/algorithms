@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.Queue;
 import java.util.Scanner;
 
 public class quad {
@@ -13,9 +15,13 @@ public class quad {
                 arr[i][j] = sc.nextInt();
             }
         }
-
-        for (int i = 0; i < N; i++) {
-            
-        }
+        sc.close();
     }
+
+    static class QuadTree {
+        int data;
+        ArrayList<Integer> children;
+
+    }
+
 }
