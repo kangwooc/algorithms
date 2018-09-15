@@ -15,13 +15,24 @@ public class quad {
                 arr[i][j] = sc.nextInt();
             }
         }
+
         sc.close();
     }
 
-    static class QuadTree {
+    static class QuadTreeNode {
         int data;
         ArrayList<Integer> children;
+        public QuadTreeNode(int data) {
+            this.data = data;
+            children = new ArrayList<>();
+        }
+    }
 
+    static class QuadTree {
+        QuadTreeNode root;
+        public QuadTree() {
+
+        }
     }
 
 }
