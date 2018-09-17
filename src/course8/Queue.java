@@ -29,31 +29,28 @@ public class Queue {
     private static void push(int X) {
         if (rear >= n - 1) {
             System.out.println("Overflow");
-            return;
         } else {
             rear++;
             queue[rear] = X;
-            return;
         }
     }
 
     private static void pop() {
-        if (rear == -1) {
+        if (front == rear) {
             System.out.println("Underflow");
-            return;
         } else {
-
-            return;
+            for (int i = 0; i < rear; i++) {
+                queue[i] = queue[i + 1];
+            }
+            rear--;
         }
     }
 
-        private static void front() {
+    private static void front() {
         if (front == rear) {
             System.out.println("NULL");
-            return;
         } else {
             System.out.println(queue[front]);
-            return;
         }
     }
 }

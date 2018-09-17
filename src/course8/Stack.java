@@ -39,6 +39,7 @@ public class Stack {
             return;
         } else {
             index--;
+            return;
         }
     }
 
