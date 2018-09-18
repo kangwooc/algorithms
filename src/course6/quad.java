@@ -72,5 +72,4 @@ public class quad {
             children = new ArrayList<>();
         }
     }
-
 }
