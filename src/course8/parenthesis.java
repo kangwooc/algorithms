@@ -26,5 +26,6 @@ public class parenthesis {
             return;
         }
         System.out.println("YES");
+        in.close();
     }
 }
