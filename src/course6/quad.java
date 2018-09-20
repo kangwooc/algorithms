@@ -23,6 +23,7 @@ public class quad {
         String hexStr = Long.toHexString(demical);
         System.out.println(hexStr.toUpperCase());
     }
+
     // dfs
     private static void quadTree(int xStart, int yStart, int length, TreeNode root) {
         int initial = arr[xStart][yStart];
@@ -47,6 +48,7 @@ public class quad {
             root.children.add(child);
         }
     }
+
     // bfs
     private static void bfs(TreeNode root) {
         Queue<TreeNode> q = new LinkedList<>();

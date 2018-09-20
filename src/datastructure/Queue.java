@@ -1,5 +1,5 @@
 package datastructure;
-
+// circular queue!
 public class Queue<T> {
     T data;
 

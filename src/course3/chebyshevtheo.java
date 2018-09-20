@@ -19,7 +19,7 @@ public class chebyshevtheo {
             }
         }
 
-        while(true) {
+        while (true) {
             int n = sc.nextInt();
             if(n == 0)
                 break;

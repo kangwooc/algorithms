@@ -1,15 +1,16 @@
 package course8;
 
 import java.util.Scanner;
-
+// 원형 큐
 public class CircularQueue {
-    static int n, m, front, rear;
+    static int size, m, front, rear;
     static int[] queue;
+    static StringBuilder sb = new StringBuilder();
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        n = sc.nextInt();
+        size = sc.nextInt();
         m = sc.nextInt();
-        queue = new int[n];
+        queue = new int[size + 1];
         front = rear = 0;
         for (int i = 0; i < m; i++) {
             int n1 = sc.nextInt();
@@ -22,36 +23,40 @@ public class CircularQueue {
                 front();
             }
         }
-
+        sc.close();
     }
 
     private static void push(int X) {
         if (isFull()) {
             System.out.println("Overflow");
-            return;
+        } else {
+            rear = (rear + 1) % (size + 1);
+            queue[rear] = X;
         }
-        queue[rear] = X;
-        rear = (++rear) % n;
-
     }
 
-    private static void pop() {
-        if (rear == front) {
+    private static int pop() {
+        if (isEmpty()) {
             System.out.println("Underflow");
-            return;
+            return -1;
         }
-        front = (++front) % n;
+        int preIndex = front;
+        front = (++front) % (size + 1);
+        return queue[preIndex];
     }
 
     private static void front() {
-        if (rear == front) {
+        if (isEmpty()) {
             System.out.println("NULL");
-            return;
+        } else {
+            System.out.println(queue[(front + 1) % (size + 1)]);
         }
-        System.out.println(queue[front]);
     }
 
     private static boolean isFull() {
-        return (rear + 1) % n == front ? true : false;
+        return (rear + 1) % (size + 1) == front;
+    }
+    private static boolean isEmpty() {
+        return front == rear;
     }
 }
