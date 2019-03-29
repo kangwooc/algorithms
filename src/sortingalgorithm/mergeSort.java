@@ -7,6 +7,6 @@ public class mergeSort {
         arr = new int[]{3, 2, 5, 1, 6, 4, 3, 7, 10, 8};
     }
     public static void partition() {
-
+        
     }
 }
