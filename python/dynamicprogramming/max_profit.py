@@ -1,7 +1,20 @@
 def max_profit(price_list, count):
     # 코드를 작성하세요.
+    table = [0]
+    for i in range(1, count + 1):
+        # profit은 count개를 팔아서 가능한 최대 수익을 저장하는 변수
+        # 팔려고 하는 총개수에 대한 가격이 price_list에 있으면 일단 그 가격으로 설정
+        # 팔려고 하는 총개수에 대한 가격이 price_list에 없으면 일단 0으로 설정
+        profit = 0
+        if i < len(price_list):
+            profit = price_list[i]
 
-    return
+        # count개를 팔 수 있는 조합들을 비교해서, 가능한 최대 수익을 찾는다
+        for k in range(1, i//2 + 1):
+            profit = max(profit, table[k] + table[i - k])
+        table.append(profit)
+
+    return table[count]
 
 
 # 테스트
