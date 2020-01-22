@@ -3,12 +3,14 @@ def sublist_max(profits, start, end):
     # base case: start == end
     if start == end:
         return profits[start]
+
     return
 
 
-def
+def max_crossing_sum(profits, start, end):
 
-# 테스트
+
+    # 테스트
 list1 = [-2, -3, 4, -1, -2, 1, 5, -3]
 print(sublist_max(list1, 0, len(list1) - 1))
 
