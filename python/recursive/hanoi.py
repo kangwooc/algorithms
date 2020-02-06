@@ -9,6 +9,11 @@ def hanoi(num_disks, start_peg, end_peg):
         move_disk(num_disks, start_peg, end_peg)
         return
 
+    mid_peg = (6 - start_peg - end_peg)
+
+    hanoi(num_disks - 1, start_peg, mid_peg)
+    move_disk(num_disks, start_peg, end_peg)
+    hanoi(num_disks - 1, mid_peg, end_peg)
     return
 
 
