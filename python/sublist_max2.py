@@ -3,14 +3,20 @@
 사실 규식이가 그 정도의 실력자는 아닙니다. 성과가 좋을 때에만 SNS에 공유해서 그렇게 비춰질 뿐이죠.
 계속해서 멋진 모습을 보여주기 위해, 특정 기간 중 수익이 가장 큰 구간을 찾아내는 함수 sublist_max를 작성해 보려고 합니다.
 
-Divide and Conquer
+Divide and Conquer O(logn)
 '''
 def sublist_max(profits, start, end):
     # 코드를 작성하세요.
+    if start == end: 
+        return profits[start]
+    mid = (start + end) // 2
+    left_sum = sublist_max(profits, start, mid)
+    right_sum = sublist_max(profits, mid + 1, end)
+
     
 
-    return 
 
+    return 
 
 
 
