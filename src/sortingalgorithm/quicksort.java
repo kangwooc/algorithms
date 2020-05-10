@@ -9,27 +9,28 @@ package sortingalgorithm;
 public class quicksort {
 
     public static void main(String[] args) {
+
         int[] arr = {3, 2, 5, 1, 6, 4, 3, 7, 10, 8};
     }
     // Hoare's Idea
-    private quick_hoare(int[] arr, int lo, int hi) {
-        //patitions
-        if (lo < hi) {
-            int i = lo;
-            int j = hi;
-            while (i < j) {
-                while (i <= hi && arr[lo] >= arr[i]) i++;
-                while (arr[lo] < arr[j]) j--;
-                if (i < j) {
-                    swap(arr[i], arr[j]);
-                }
-            }
-        }
-        swap(arr[lo], arr[j]);
-
-        quick_hoare(arr, lo, j - 1);
-        quick_hoare(arr, j + 1, hi);
-    }
+//    private void quick_hoare(int[] arr, int lo, int hi) {
+//        //patitions
+//        if (lo < hi) {
+//            int i = lo;
+//            int j = hi;
+//            while (i < j) {
+//                while (i <= hi && arr[lo] >= arr[i]) i++;
+//                while (arr[lo] < arr[j]) j--;
+//                if (i < j) {
+//                    swap(arr[i], arr[j]);
+//                }
+//            }
+//        }
+//        swap(arr[lo], arr[j]);
+//
+//        quick_hoare(arr, lo, j - 1);
+//        quick_hoare(arr, j + 1, hi);
+//    }
     
     private void swap (int a, int b) {
         int temp = a; 
